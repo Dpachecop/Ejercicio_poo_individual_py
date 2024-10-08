@@ -48,7 +48,7 @@ class Animal:
     def peso_kg(self, peso_kg):
         self._peso_kg = peso_kg
 
-    # Método para mostrar detalles
+    
     def mostrar_detalles(self):
         print("Información del animal:")
         print(f"ID del animal: {self._id}")
